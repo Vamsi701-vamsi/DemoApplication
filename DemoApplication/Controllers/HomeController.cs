@@ -10,6 +10,7 @@ namespace DemoApplication.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Hi vamsi";
             return View();
         }
 
